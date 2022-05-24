@@ -1,0 +1,13 @@
+.header {
+  &__logo {
+    width: 143px;
+  }
+  &__logoLink {
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 26px !important;
+  }
+}
+.btn--collection button:nth-child(1) {
+  margin-right: 15px;
+}
