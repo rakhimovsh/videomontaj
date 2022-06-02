@@ -1,0 +1,20 @@
+.hero-home {
+  &__left {
+    max-width: 556px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    &--span {
+      color: #abc6d3;
+    }
+  }
+  &__desc {
+    width: 100%;
+    max-width: 470px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

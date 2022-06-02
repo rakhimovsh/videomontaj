@@ -51,9 +51,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -64,4 +61,31 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 50px;
+}
+
+.site-container {
+  max-width: 1401px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }

@@ -6,7 +6,7 @@ import FooterList from "../FooterList/FooterList";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="site-container">
         <FooterTop />
         <div>
           <div className="d-flex align-items-end justify-content-between">
