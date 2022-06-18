@@ -5,7 +5,7 @@ import HeroImage from "../HeroImage/HeroImage";
 
 const HeroHome = () => {
   return (
-    <section className="site-container hero-home d-flex align-items-center">
+    <section className="site-container hero-home d-flex align-items-center pb-5">
       <div className="hero-home__left">
         <h1 className="hero-home__title">
           Мы не просто <span className="hero-home__title--span">школа,</span>{" "}

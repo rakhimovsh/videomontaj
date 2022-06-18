@@ -2,19 +2,18 @@
   &__imgCollection {
     max-width: 805px;
     width: 100%;
+    overflow-x: hidden;
   }
   &__img {
     border-radius: 20px;
-    height: 100%;
     object-fit: cover;
     transition: all 1s ease;
+    min-height: 600px;
+    height: 100%;
   }
   &__img:nth-child(2),
   &__img:nth-child(3) {
-    max-width: 150px;
-    width: 100%;
-  }
-  &__img:nth-child(1).width {
+    height: 100% !important;
     max-width: 150px;
   }
   &__img:nth-child(2):hover {

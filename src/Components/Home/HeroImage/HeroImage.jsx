@@ -7,20 +7,26 @@ import heroImg3 from "../../../Assets/Images/homehero-3.png";
 const HeroImage = () => {
   let [className, setClassName] = React.useState(false);
 
-  function handeMouseOverSecondImage() {
-    setClassName(!className);
-  }
+  const onMouseEnter = () => {
+    setClassName(true);
+  };
+
+  const onMouseLeave = () => {
+    setClassName(false);
+  };
+
   return (
     <div className="homehero__imgCollection d-flex justify-content-between pt-5">
       <img
-        className={`homehero__img ${className ? "width" : ""}`}
+        className={`homehero__img`}
         src={heroImg1}
         alt=""
-        width={460}
+        width={className ? 150 : 460}
         height={600}
       />
       <img
-        onMouseOver={handeMouseOverSecondImage}
+        onMouseEnter={onMouseEnter}
+        onMouseLeave={onMouseLeave}
         className="homehero__img"
         src={heroImg2}
         alt=""
@@ -28,6 +34,8 @@ const HeroImage = () => {
         height={600}
       />
       <img
+        onMouseEnter={onMouseEnter}
+        onMouseLeave={onMouseLeave}
         className="homehero__img"
         src={heroImg3}
         alt=""

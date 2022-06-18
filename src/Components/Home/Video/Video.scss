@@ -1,0 +1,30 @@
+.video {
+  &__title {
+    max-width: 750px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    & span {
+      color: #abc6d3;
+    }
+  }
+  &__item {
+    max-width: 377px;
+    & div h3 {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: -0.02em;
+      color: #fcfff8;
+    }
+    & div p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #fcfff8;
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.online-cours {
+  &__title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #abc6d3;
+    &::after {
+      margin-left: 25px;
+      content: "";
+      width: 79px;
+      height: 3px;
+      background-color: #abc6d3;
+      border-radius: 30px;
+    }
+  }
+  &__desc {
+    max-width: 821px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: #fcfff8;
+    opacity: 0.8;
+  }
+  &__list li {
+    max-width: 432px;
+    background: #343f48;
+    border-radius: 15px;
+    & h3 {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: -0.02em;
+    }
+    & p {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: -0.02em;
+      color: #fcfff8;
+      opacity: 0.8;
+    }
+    & button {
+      padding-top: 27px;
+      padding-bottom: 27px;
+      background: #abc6d3;
+      border-radius: 15px;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #fcfff8;
+    }
+  }
+}
