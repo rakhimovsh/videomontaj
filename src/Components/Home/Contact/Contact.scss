@@ -1,0 +1,58 @@
+.contact {
+  &__left {
+    max-width: 430px;
+
+    &--title {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.02em;
+      color: #abc6d3;
+
+      &::after {
+        margin-left: 25px;
+        content: "";
+        width: 79px;
+        height: 3px;
+        background-color: #abc6d3;
+        border-radius: 30px;
+      }
+    }
+
+    &--desc {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #fcfff8;
+      opacity: 0.6;
+      margin-bottom: 70px;
+    }
+  }
+
+  &__email,
+  &__phone {
+    margin-bottom: 0;
+    font-size: 23px;
+  }
+  &__email {
+    font-size: 30px;
+  }
+  &__right {
+    padding: 70px 60px;
+    max-width: 785px;
+    width: 100%;
+  }
+  &__input {
+    padding: 27px 30px;
+    background: #2D333A;
+    border-radius: 15px;
+    color: white;
+    border-color: transparent;
+    &:focus{
+      outline: none;
+    }
+  }
+}
