@@ -21,7 +21,7 @@ const FooterTop = () => {
           </Link>
         </li>
         <li>
-          <Link className=" text-decoration-none fs-5 text-light" to="/">
+          <Link className=" text-decoration-none fs-5 text-light" to="/course">
             Course
           </Link>
         </li>

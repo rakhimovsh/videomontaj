@@ -19,7 +19,7 @@ const NavList = () => {
           aria-labelledby="navbarDarkDropdownMenuLink1"
         >
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/about">
               Action
             </a>
           </li>
@@ -41,7 +41,7 @@ const NavList = () => {
           aria-labelledby="navbarDarkDropdownMenuLink1"
         >
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/course">
               Action
             </a>
           </li>
