@@ -1,0 +1,54 @@
+.life {
+    margin-top: 60px;
+    margin-bottom: 270px;
+    padding-bottom: 390px;
+    background-color: #ABC6D333;
+    border-radius: 30px;
+    background-image: url('../../../Assets/Images/life.png');
+    background-repeat: no-repeat;
+    background-position-y: 422px;
+    background-size: 1450px;
+    &__inner {
+        padding-top: 50px;
+        h2 {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.02em;
+            color: #ABC6D3;
+    
+            &::after {
+                margin-left: 25px;
+                content: "";
+                width: 79px;
+                height: 3px;
+                background-color: #abc6d3;
+                border-radius: 30px;
+            }
+        }
+        h3 {
+            margin: 0;
+            padding: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 67px;
+            color: #FCFFF8;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+            padding-bottom: 84px;
+            width: 931px;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 36px;
+            letter-spacing: -0.02em;
+            color: #FCFFF8;
+            opacity: 0.6;
+        }
+    }
+}

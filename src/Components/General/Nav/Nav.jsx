@@ -3,6 +3,7 @@ import "./Nav.scss";
 import Button from "../Button/Button";
 import NavList from "../NavList/NavList";
 import { Link } from "react-router-dom";
+import logo from '../../../Assets/Images/logo.svg'
 
 const Nav = () => {
   return (
@@ -12,7 +13,7 @@ const Nav = () => {
           className="text-decoration-none header__logoLink text-light"
           to="/"
         >
-          Хорошая школа
+          <img src={logo}></img>
         </Link>
       </div>
       <div className="d-flex">
