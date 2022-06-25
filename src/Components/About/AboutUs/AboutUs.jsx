@@ -13,8 +13,6 @@ const AboutUs = () => {
                     Мы постоянно нагнетаем страсти, соединяющие члены, чтобы повысить ценности для сообщества.
                 </h3>
             </div>
-
-            <img className="about-us_img" src={AboutUsImg} alt="hero-img" />
         </section>
         
     );

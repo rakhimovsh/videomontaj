@@ -1,5 +1,8 @@
 .mission {
-    &__imgCollection {
+  padding: 0;
+  margin: 0;
+  &__imgCollection {
+      margin-top: -180px;
       display: flex;
       align-items: center;
       max-width: 800px;

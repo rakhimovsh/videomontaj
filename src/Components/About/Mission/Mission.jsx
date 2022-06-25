@@ -4,7 +4,7 @@ import MissionImg from '../MissionImg/MissionImg';
 
 const Misson = () => {
     return (
-        <section className="site-container d-flex">
+        <section className="site-container d-flex align-items-center">
             <div className="mission__left">
                 <h2>
                     Видение и миссия
